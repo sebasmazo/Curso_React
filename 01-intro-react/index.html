@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP_REACT</title>
+
+    <!--IMPORTAR REACT-->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel"> //Babel se encarga de interpretar el código para react (Los tags para guardar las expresiones)
+        const divRoot = document.querySelector('#root');         
+        const nombre = 'Sebastian';
+        const h1Tag = <h1>Hola, soy { nombre } </h1>; //Expresión HTML que luego se renderizará en la división deseada
+        
+        ReactDOM.render( h1Tag, divRoot ); //Linea de código para renderizar el tag html y su ubicación (Parametros)
+    </script>
+
+</body>
+
+</html>
