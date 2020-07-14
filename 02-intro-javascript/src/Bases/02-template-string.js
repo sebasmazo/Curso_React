@@ -8,5 +8,4 @@ const nombreCompleto1 = `${nombre} ${apellido} `; //Concatenar con template stri
 function getSaludo(nombre) {
     return 'Hola, ' + nombre;
 }
-
 console.log(`Este es un texto: ${getSaludo(nombreCompleto1)}`);
