@@ -1,4 +1,4 @@
-export const heroes = [ //Export se le pone a lo que quieres mandar a otro archivo
+const heroes = [ //Export se le pone a lo que quieres mandar a otro archivo
     {
         id: 1,
         name: 'Batman',
@@ -25,3 +25,11 @@ export const heroes = [ //Export se le pone a lo que quieres mandar a otro archi
         owner: 'Marvel'
     },
 ];
+
+const owners = ['DC', 'MARVEL'];
+
+export{
+    owners,
+    heroes
+}
+
