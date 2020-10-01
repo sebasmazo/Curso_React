@@ -1,9 +1,10 @@
-const getUsuarioActivo = (nombre) => ({
-    
+export const getUsuarioActivo = (nombre) => ({
         uid: 'ABC567',
         username: nombre
-    
 });
 
-const usuarioActivo = getUsuarioActivo('Fernando');
-console.log(usuarioActivo);
+export const getUser = () => ({
+        uid: 'AAA213',
+        username : 'Sebasmazo'
+})
+

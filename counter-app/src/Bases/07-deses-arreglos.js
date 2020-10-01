@@ -1,5 +1,5 @@
 const personajes = ['Goku', 'Vegeta', 'Freezer'];
-const retornaArreglo = () =>{
+export const retornaArreglo = () =>{
     return ['ABC',123]; 
 };
 const [letras, numeros] = retornaArreglo(); //Guarda ABC en letras y 123 en numeros
